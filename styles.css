@@ -120,3 +120,22 @@ footer p {
     color: gold;
     font-size: 1.2em;
 }
+/* Floating effect on scroll */
+@keyframes floatEffect {
+    0% { transform: translateY(20px); opacity: 0; }
+    100% { transform: translateY(0px); opacity: 1; }
+}
+
+/* Hide elements initially */
+.floating {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Trigger animation when the element is in view */
+.floating:target, 
+.floating:focus-within, 
+.floating:hover {
+    animation: floatEffect 1.5s ease-in-out forwards;
+}
