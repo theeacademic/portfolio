@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #FFD700; /* Gold color */
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #FFD700;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .tagline {
+    font-size: 1.2em;
+    color: #FFD700;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #333;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.job, .education-item {
+    margin-bottom: 30px;
+}
+
+.job h3, .education-item h3 {
+    margin-bottom: 5px;
+}
+
+.date {
+    color: #FFD700;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #FFD700;
+}
+
+footer p {
+    margin: 0;
+    color: #FFD700;
+}
+.profile-img {
+    width: 150px; /* Adjust size */
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #333; /* Optional border */
+}
