@@ -116,3 +116,7 @@ footer p {
     margin: 10px auto;
     border: 3px solid #333; /* Optional border */
 }
+.stars {
+    color: gold;
+    font-size: 1.2em;
+}
